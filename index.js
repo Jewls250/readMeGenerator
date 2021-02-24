@@ -16,11 +16,21 @@ const questions = [
     message: "Provide intoduction to project?",
   },
   {
+    type: "input",
+    name: "howToUsApplication",
+    message: "This is how you can use my application",
+  },
+  {
+    type: "input",
+    name: "contributors",
+    message: "Did you have any contributors with this project?",
+  },
+  {
     type: "list",
     name: "license",
     message: "What license would you like to use?",
-    choices: ["Apache", "Boost", "BSD"]
-},
+    choices: ["Apache", "Boost", "BSD"],
+  },
 ];
 
 

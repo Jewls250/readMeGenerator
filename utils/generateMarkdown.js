@@ -3,6 +3,8 @@ function generateMarkdown(data) {
   return `
   # ${data.projectName}
   # ${data.introduction}
+  # ${data.howToUsApplication}
+  # ${data.contribu}
   # ${data.license}
 `;
 }
